@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import img from './img/lunbo1.jpg';
 import qrcode from './img/qrcode.jpeg';
 import { Carousel } from 'react-bootstrap';
-
+// !!!!
 function App() {
   return (
     <div className="App">
