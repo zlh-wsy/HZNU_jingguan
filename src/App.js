@@ -3,10 +3,17 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import img from './img/lunbo1.jpg';
 import qrcode from './img/qrcode.jpeg';
-import { Carousel } from 'react-bootstrap';
+import Home from './components/Home/Home.js';
+import subPage from './components/subPage/subPage.js';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+  } from "react-router-dom";
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <nav className="header">
         <div className="header_top w">
@@ -24,113 +31,86 @@ function App() {
 
       <div className="nav w container-md">
         <ul className="row">
-            <li className="nav_item col"><a href="">学院首页</a></li>
-            <li className="nav_item col"><a href="">学院概况</a>
+            <li className="nav_item col"><a href="/">学院首页</a></li>
+            <li className="nav_item col"><a href="/123">学院概况</a>
                 <div className="nav_item_sub">
-                    <a href="">学院简介</a>
-                    <a href="">历史沿革</a>
-                    <a href="">机构设置</a>
-                    <a href="">历任领导</a>
-                    <a href="">学术委员会</a>
+                    <a href="/123">学院简介</a>
+                    <a href="/123">历史沿革</a>
+                    <a href="/123">机构设置</a>
+                    <a href="/123">历任领导</a>
+                    <a href="/123">学术委员会</a>
                 </div>
             </li>
-            <li className="nav_item col"><a href="">人才培养</a>
+            <li className="nav_item col"><a href="/123">人才培养</a>
                 <div className="nav_item_sub">
-                    <a href="">本科教学</a>
-                    <a href="">研究生教学</a>
-                    <a href="">继续教学</a>
-                    <a href="">国际交流</a>
+                    <a href="/123">本科教学</a>
+                    <a href="/123">研究生教学</a>
+                    <a href="/123">继续教学</a>
+                    <a href="/123">国际交流</a>
                 </div>
             </li>
-            <li className="nav_item col"><a href="">科学研究</a>
+            <li className="nav_item col"><a href="/123">科学研究</a>
                 <div className="nav_item_sub">
-                    <a href="">科学风貌</a>
-                    <a href="">研究机构</a>
-                    <a href="">科研成果</a>
-                    <a href="">学术交流</a>
+                    <a href="/123">科学风貌</a>
+                    <a href="/123">研究机构</a>
+                    <a href="/123">科研成果</a>
+                    <a href="/123">学术交流</a>
                 </div>
             </li>
-            <li className="nav_item col"><a href="">招生就业</a>
+            <li className="nav_item col"><a href="/123">招生就业</a>
                 <div className="nav_item_sub">
-                    <a href="">招生信息</a>
-                    <a href="">专业介绍</a>
-                    <a href="">招聘信息</a>
-                    <a href="">职业规划</a>
-                    <a href="">创新创业</a>
+                    <a href="/123">招生信息</a>
+                    <a href="/123">专业介绍</a>
+                    <a href="/123">招聘信息</a>
+                    <a href="/123">职业规划</a>
+                    <a href="/123">创新创业</a>
                 </div>
             </li>
             <li className="nav_item col"><a href="">学生工作</a>
                 <div className="nav_item_sub">
-                    <a href="">通知公告</a>
-                    <a href="">团学动态</a>
-                    <a href="">学生组织</a>
-                    <a href="">学生风采</a>
+                    <a href="/123">通知公告</a>
+                    <a href="/123">团学动态</a>
+                    <a href="/123">学生组织</a>
+                    <a href="/123">学生风采</a>
                 </div>
             </li>
             <li className="nav_item col"><a href="">党建工作</a>
                 <div className="nav_item_sub">
-                    <a href="">党建巡礼</a>
-                    <a href="">支部风采</a>
-                    <a href="">学习参考</a>
-                    <a href="">管理制度</a>
+                    <a href="/123">党建巡礼</a>
+                    <a href="/123">支部风采</a>
+                    <a href="/123">学习参考</a>
+                    <a href="/123">管理制度</a>
                 </div>
             </li>
-            <li className="nav_item col"><a href="">师资队伍</a>
+            <li className="nav_item col"><a href="/123">师资队伍</a>
                 <div className="nav_item_sub">
-                    <a href="">教授风采</a>
-                    <a href="">骨干教师</a>
-                    <a href="">行政人员</a>
-                    <a href="">学院领导</a>
-                    <a href="">硕导风采</a>
-                    <a href="">行业导师</a>
+                    <a href="/123">教授风采</a>
+                    <a href="/123">骨干教师</a>
+                    <a href="/123">行政人员</a>
+                    <a href="/123">学院领导</a>
+                    <a href="/123">硕导风采</a>
+                    <a href="/123">行业导师</a>
                 </div>
             </li>
-            <li className="nav_item col"><a href="">新闻动态</a></li>
-            <li className="nav_item col"><a href="">校友之家</a>
+            <li className="nav_item col"><a href="/123">新闻动态</a></li>
+            <li className="nav_item col"><a href="/123">校友之家</a>
                 <div className="nav_item_sub">
-                    <a href="">校友名录</a>
-                    <a href="">校友通讯</a>
+                    <a href="/123">校友名录</a>
+                    <a href="/123">校友通讯</a>
                 </div>
             </li>
         </ul>
     </div>
 
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={img}
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={img}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={img}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-    </Carousel>
+    <Switch>
+        <Route path="/:id">
+            <subPage />
+        </Route>
 
-    <div className="news">
-      <div className="content">
-        <div style={{display: 'inline-block'}}>
-          <div className="custom_h1">学院新闻</div>
-          <div className="line_B"></div>
-        </div>
-        <div className="line"/>
-        <div className="more">
-          更多 >
-        </div>
-      </div>
-    </div>
+        <Route path="/">
+            <Home />
+        </Route>
+    </Switch>
 
     <footer className="footer">
         <div className="footer_bottom w ">
@@ -197,6 +177,7 @@ function App() {
         </div>
     </footer>
     </div>
+    </Router>
   );
 }
 

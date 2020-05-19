@@ -119,11 +119,11 @@ body {
   line-height: 52px;
   font-family: AliHYAiHei-Beta;
   font-weight: 400;
-  color: #7a113a;
+  color: rgb(63, 91, 152);
 }
 
 .line {
-  float: right;
+  display: inline-block;
   margin-left: 25px;
   margin-top: 25px;
   width: 1030px;
@@ -132,7 +132,7 @@ body {
 }
 
 .more {
-  float: right;
+  display: inline-block;
 }
 
 /********************底栏********************/
