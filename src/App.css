@@ -10,11 +10,7 @@
 }
 
 li {
-  list-style: none !important;
-}
-
-a {
-  text-decoration: none !important;
+  list-style: none;
 }
 
 body {
@@ -113,9 +109,9 @@ body {
 }
 
 .line_B {
-  width: 22px;
-  height: 2px;
-  background-color: rgb(241, 163, 28);
+  width:22px;
+  height:2px;
+  background-color:rgb(241, 163, 28);
 }
 
 .custom_h1 {
@@ -123,11 +119,11 @@ body {
   line-height: 52px;
   font-family: AliHYAiHei-Beta;
   font-weight: 400;
-  color: #7a113a;
+  color: rgb(63, 91, 152);
 }
 
 .line {
-  float: right;
+  display: inline-block;
   margin-left: 25px;
   margin-bottom: 5px;
   width: 1015px;
@@ -251,9 +247,9 @@ body {
   margin-left: -25%; */
 }
 
-/* @media screen and (max-width: 300px) {
+@media screen and (max-width: 300px) {
   body {
-    display: none;
-    background-color: lightblue;
+      display: none;
+      background-color: lightblue;
   }
-} */
+}
