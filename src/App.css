@@ -59,7 +59,8 @@ body {
 }
 
 .nav li a {
-  display: block;
+  color: black;
+  display: block*
   height: 58px;
   line-height: 58px;
   text-align: center;
