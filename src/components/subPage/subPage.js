@@ -1,9 +1,9 @@
 import React from 'react';
 import './subPage.css';
-// 
+//
 function SubPage() {
     return (
-    <div>
+        <div>
         <div className="bg_img"></div>
 
         <div className="section_inner c">
