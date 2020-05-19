@@ -17,9 +17,9 @@ function App() {
     <div className="App">
       <nav className="header">
         <div className="header_top w">
-            <div className="logo">
-                <a className="" href="#"></a>
-            </div>
+                <a href="/">
+                    <div className="logo"/>
+                </a>
 
             <div className="search">
                 <form className="form-inline search">
@@ -135,7 +135,7 @@ function App() {
             <div className="footer_center">
                 <div className="footer_center_box">
                     <div className="footer_logo">
-                        <a className="" href="#"></a>
+                        <a href="/"></a>
                     </div>
                     <div className="footer_info">
                         <div className="tel">
