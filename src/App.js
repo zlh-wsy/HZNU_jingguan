@@ -121,11 +121,14 @@ function App() {
 
     <div className="news">
       <div className="content">
-        <div>
+        <div style={{display: 'inline-block'}}>
           <div className="custom_h1">学院新闻</div>
           <div className="line_B"></div>
         </div>
         <div className="line"/>
+        <div className="more">
+          更多 >
+        </div>
       </div>
     </div>
 

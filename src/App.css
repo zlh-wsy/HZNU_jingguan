@@ -122,12 +122,16 @@ body {
 }
 
 .line {
-  float: left;
+  float: right;
   margin-left: 25px;
   margin-top: 25px;
   width: 1030px;
   height: 1px;
   background: #e6e6e6;
+}
+
+.more {
+  float: right;
 }
 
 /********************底栏********************/
