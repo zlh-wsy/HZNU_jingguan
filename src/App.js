@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import img from './img/lunbo1.jpg';
 import qrcode from './img/qrcode.jpeg';
 import Home from './components/Home/Home.js';
-import subPage from './components/subPage/subPage.js';
+import SubPage from './components/subPage/subPage.js';
 import {
     BrowserRouter as Router,
     Switch,
@@ -17,9 +17,9 @@ function App() {
     <div className="App">
       <nav className="header">
         <div className="header_top w">
-            <div className="logo">
-                <a className="" href="#"></a>
-            </div>
+                <a href="/">
+                    <div className="logo"/>
+                </a>
 
             <div className="search">
                 <form className="form-inline search">
@@ -104,7 +104,7 @@ function App() {
 
     <Switch>
         <Route path="/:id">
-            <subPage />
+            <SubPage />
         </Route>
 
         <Route path="/">
@@ -135,7 +135,7 @@ function App() {
             <div className="footer_center">
                 <div className="footer_center_box">
                     <div className="footer_logo">
-                        <a className="" href="#"></a>
+                        <a href="/"></a>
                     </div>
                     <div className="footer_info">
                         <div className="tel">

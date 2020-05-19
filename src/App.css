@@ -125,14 +125,15 @@ body {
 .line {
   display: inline-block;
   margin-left: 25px;
-  margin-top: 25px;
-  width: 1030px;
+  margin-bottom: 5px;
+  width: 1015px;
   height: 1px;
   background: #e6e6e6;
 }
 
 .more {
   display: inline-block;
+  margin: 15px 0 0 10px;
 }
 
 /********************底栏********************/

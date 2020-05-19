@@ -1,0 +1,77 @@
+.L {
+    float: left;
+}
+
+.R {
+    float: right;
+    list-style-type: square;
+}
+
+.R li {
+    font-size: 14px;
+    height: 22px;
+    margin-bottom: 13px;
+    overflow: hidden;
+}
+
+.news_detail {
+    float: left;
+    width: 250px;
+    height: 370px;
+    margin-right: 40px;
+    background: #f5f5f5;
+}
+
+.news_pic {
+    width: 250px;
+    height: 170px;
+}
+
+.news_time {
+    margin-top: 15px;
+    color: #f1a31c;
+}
+
+.achievments {
+    background: url(../../img/bkImg.jpg) top center no-repeat;
+    overflow: hidden;
+    padding-bottom: 90px;
+    width: 100%;
+}
+
+.achievments_block {
+    width: 373px;
+    float: left;
+    overflow: hidden;
+    padding-top: 60px;
+    position: relative;
+}
+
+.ach_section {
+    float: left;
+    color: rgb(63, 91, 152);
+    font-size: 28px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.ach_section hr {
+    float: right;
+    width: 240px;
+    margin-top: 20px;
+    height: 2px;
+    color: black;
+}
+
+.extra {
+    margin: 0 0 60px 0;
+}
+
+.custom_card {
+    position: relative;
+    top: 30px;
+}
+
+.extra_En {
+    color: #8e8e8e;
+}
