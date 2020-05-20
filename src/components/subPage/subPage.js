@@ -1,6 +1,6 @@
 import React from 'react';
 import './subPage.css';
-// 
+
 function SubPage() {
     return (
         <div>
